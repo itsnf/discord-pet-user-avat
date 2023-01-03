@@ -9,7 +9,7 @@ export async function InteractionReplyPetUser(interaction) {
         files: [
             {
                 attachment: await PetImage(PettingUser.displayAvatarURL({ extension: 'png' })),
-                name: 'pet-pet.gif'
+                name: `${PettingUser.username}#${PettingUser.discriminator}-pet-pet.gif`
             }
         ]
     })
