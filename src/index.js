@@ -7,4 +7,10 @@ client.once('ready', () => {
     console.log('Ready!')
 })
 
+client.on('interactionCreate', async interaction => {
+	if (interaction.isChatInputCommand()) {
+		InteractionHandler(interaction)
+	}
+})
+
 client.login(config.token)
