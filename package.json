@@ -5,7 +5,8 @@
 	"description": "",
 	"main": "index.js",
 	"scripts": {
-		"start": "node ./src/index.js"
+		"start": "node ./src/index.js",
+		"deploy-commands": "node ./src/utils/deploy-commands.js"
 	},
 	"keywords": [],
 	"author": "NF#0003",
