@@ -12,6 +12,8 @@
 	"author": "NF#0003",
 	"license": "ISC",
 	"dependencies": {
-		"discord.js": "^14.7.1"
+		"discord.js": "^14.7.1",
+		"gifencoder": "^2.0.1",
+		"lodash": "^4.17.21"
 	}
 }
