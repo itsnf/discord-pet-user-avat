@@ -13,3 +13,5 @@ To use the bot, you need to create a `config.json` file in the root of the proje
     "clientId": "Your-bot-id"
 }
 ```
+
+After configuring the config and adding the bot to the server you need to run `deploy-commands.bat` and after `start.bat`. And that's it!
